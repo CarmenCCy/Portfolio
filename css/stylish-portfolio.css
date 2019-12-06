@@ -91,7 +91,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/film/07.JPG");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/digital/99.JPG");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -440,4 +440,5 @@ a:hover, a:focus, a:active {
 * {box-sizing:border-box}
 
 * {box-sizing:border-box}
+
 
