@@ -7,6 +7,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #fd7e77ad;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #fd7e77;
+}
+
+/* Style the container/contact section */
+.container2 {
+  border-radius: 5px;
+  background-color: #212529;
+  width: 100%;
+  padding-right: 450px;
+  padding-left: 450px;
+  margin-right: auto;
+  margin-left: auto;;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float:none;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
 
   <title>Carmen's portfolio</title>
 
@@ -251,22 +318,51 @@
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.281859027549!2d114.17683395057884!3d22.30517758524892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400e87bc70a43%3A0x41b4db8708c4f997!2sJockey%20Club%20Innovation%20Tower!5e0!3m2!1szh-TW!2shk!4v1575462833627!5m2!1szh-TW!2shk"
       width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     <footer class="footer text-center">
-      <div class="container">
+      <div class="container2">
 
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/carmenchungcy"
+          <div class="container2"></div>
+              <div style="padding-top: 3rem;padding-bottom: 1.5rem">
+               
+                <h2>Leave me a message!</h2>
+              </div>
+          
+                
+                  <form action="#copyright">
+                    <label for="fname" style="padding-top: 1.2rem;color: #fd7e77;text-align: left;font-weight: 700">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname" style="padding-top: 1.2rem;color: #fd7e77;font-weight: 700">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country" style="padding-top: 1.2rem;color: #fd7e77;font-weight: 700">You are a</label>
+                    <select id="country" name="country">
+                      <option value="student">student</option>
+                      <option value="teacher">teacher</option>
+                      <option value="professional">professional</option>
+                      <option value="in other occupation">(other occupation)</option>
+                    </select>
+                    <label for="subject" style="padding-top: 2rem;color: #fd7e77;font-weight: 700">Comments</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px" style="padding-bottom: 2rem"></textarea>
+                    <input type="submit" value="Submit" onclick="myFunction1()">
+                    
+                  </form>
+                </div>
+              </div>
+            </div>
+
+
+        <li class="list-inline-item" style="padding-top: 2rem">
+          <a class="social-link rounded-circle text-white" href="https://www.facebook.com/carmenchungcy"
             target="_blank">
             <i class="icon-social-facebook"></i>
           </a>
         </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://www.instagram.com/carmen_ccy_/?hl=zh-hk"
+        <li class="list-inline-item" style="padding-top: 2rem">
+          <a class="social-link rounded-circle text-white" href="https://www.instagram.com/carmen_ccy_/?hl=zh-hk"
             target="_blank">
             <i class="icon-social-instagram"></i>
           </a>
         </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://github.com/CarmenCCy" target="_blank">
+        <li class="list-inline-item" style="padding-top: 2rem">
+          <a class="social-link rounded-circle text-white" href="https://github.com/CarmenCCy" target="_blank">
             <i class="icon-social-github"></i>
           </a>
         </li>
@@ -275,7 +371,7 @@
   </section>
   <div>
     <p
-      style="color:#fd7e77;font-size: 15px;font-weight: 600;text-align: center;padding-top: 2.2rem;padding-bottom: 1.5rem">
+    id="copyright" style="color:#fd7e77;font-size: 15px;font-weight: 600;text-align: center;padding-top: 2.4rem;padding-bottom: 1.5rem">
       Copyright &copy; Carmen's Portfolio 2019</p>
   </div>
 
@@ -308,6 +404,12 @@
         alert("Sorry! Still under construction :(");
       }
       </script>
+
+<script>
+    function myFunction1() {
+      alert("Message recieved! Thank you.");
+    }
+    </script>
 
 <!-- Modal 1 -->
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
