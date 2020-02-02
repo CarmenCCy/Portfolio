@@ -9,6 +9,7 @@
   <meta name="author" content="">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 body {
   font-family: Lora, serif;
@@ -138,8 +139,8 @@ input[type=submit]:hover {
   <!-- Header -->
   <header class="masthead d-flex">
     <div class="container my-auto">
-      <h1 style="color: rgb(255, 255, 255);font-size: 90px;text-align: left;text-shadow: rgba(0, 0, 0, 0.407) 0.1em 0.1em 0.2em" class="mb-1">Carmen's porfolio</h1>
-      <h3 style="font-size: 25px;text-align: left" class="mb-5">
+      <h1 style="color: rgb(255, 255, 255);font-size: 90px;text-align: left;text-shadow: rgba(0, 0, 0, 0.407) 0.1em 0.1em 0.2em;font-family: 'Lora', serif" class="mb-1">Carmen's porfolio</h1>
+      <h3 style="font-size: 25px;text-align: left;font-family: 'Lora', serif" class="mb-5">
         <em>"The best way you can predict the future is to create it."</em>
       </h3>
       <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Have a look!</a>
@@ -158,22 +159,17 @@ input[type=submit]:hover {
           <p class="lead mb-5" style="padding-top: 2rem">Carmen Chung, an advertising student from Hong Kong Polytechnic
             University. I am a passionate and creative person and always ready to explore infinite possibilities in the
             world.</p>
-
-
         </div>
       </div>
     </div>
   </section>
 
-  
-    
-
   <!-- Services -->
   <section class="parallax content-section bg-primary text-white text-center" id="services">
     <div class="container">
       <div class="content-section-heading">
-        <h3 class="mb-0" style="color: #fd7e77;font-weight:600;padding-bottom: .5rem">A brief introduction</h3>
-        <h2 class="mb-5">of myself.</h2>
+        <h3 class="mb-0" style="color: #fd7e77;font-weight:600;padding-bottom: .5rem;font-family: 'Lora', serif">A brief introduction</h3>
+        <h2 class="mb-5" style="font-family: 'Lora', serif">of myself.</h2>
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -231,79 +227,546 @@ input[type=submit]:hover {
   <section class="content-section" id="portfolio">
     <div class="container">
       <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0">Carmen's</h3>
-        <h2 class="mb-5">Recent Works</h2>
+        <h3 class="text-secondary mb-0" style="font-family: 'Lora', serif">Carmen's</h3>
+        <h2 style="font-family: 'Lora', serif;margin-bottom: 1rem">Recent Works</h2>
+        <p style="font-size: 20px">Swipe and have a look!</p>
       </div>
       <div class="row no-gutters">
 
-        <div class="col-lg-6">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal1">
-            <span class="caption">
-              <span class="caption-content">
-                <h2 style="color: #fd7e77">Photography</h2>
-                <p class="mb-0">Digital photography taken in Hong Kong.</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio cover/digital.jpg" alt="">
-          </a>
-        </div>
+        <div>
 
-        <div class="col-lg-6">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal2">
-            <span class="caption">
-              <span class="caption-content">
-                <h2 style="color: #fd7e77">Marker Sketches</h2>
-                <p class="mb-0">Sketches by coloured or b/w markers.</p>
-              </span>
-            </span>
-            <img class="img-fluid" style="height: inherit" src="img/portfolio cover/chicken.jpg" alt="">
-          </a>
-        </div>
+          
+        
+          <!--Carousel Wrapper-->
+          <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+        
+            <!--Controls-->
+            <div class="controls-top" style="text-align: center;margin-bottom: 1rem">
+              <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left" style="font-size: 2.5rem;color: #fd7e77"></i></a>
+              <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right" style="font-size: 2.5rem;color: #fd7e77"></i></a>
+            </div>
+            <!--/.Controls-->
+      
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+              <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+              <li data-target="#multi-item-example" data-slide-to="1"></li>
+              <li data-target="#multi-item-example" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+        
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+        
+              <!--First slide-->
+              <div class="carousel-item active">
 
-        <div class="col-lg-6">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal3">
-            <span class="caption">
-              <span class="caption-content">
-                <h2 style="color: #fd7e77">Graphics</h2>
-                <p class="mb-0">Graphic works of booklets and posters.</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio cover/final.jpg" alt="">
-          </a>
+                <h2 style="color:#fd7e77;margin-bottom: 1rem">Digital Photography</h2>
+        
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/final/a.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                      
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/final/b.JPG"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/final/c.JPG"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/final/d.JPG"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/final/e.JPG"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/final/f.JPG"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  
+                </div>
+        
+              </div>
+              <!--/.First slide-->
+        
+              <!--Second slide-->
+              <div class="carousel-item">
+
+                  <h2 style="color:#fd7e77;margin-bottom: 1rem">Digital Photography</h2>
+        
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/final/1.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/final/2.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/final/3.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/final/4.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                       
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/final/5.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/final/6.JPG"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                </div>
+        
+                
+        
+              </div>
+              <!--/.Second slide-->
+        
+              <!--Third slide-->
+              <div class="carousel-item">
+
+                  <h2 style="color:#fd7e77;margin-bottom: 1rem">Film Photography</h2>
+        
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/film final/01.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/film final/02.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/film final/03.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/film final/04.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/film final/05.JPG"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/film final/06.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                       
+                      </div>
+                    </div>
+                  </div>
+        
+                </div>
+        
+              </div>
+              <!--/.Third slide-->
+        
+              <!--Forth slide-->
+              <div class="carousel-item">
+
+                  <h2 style="color:#fd7e77;margin-bottom: 1rem">Graphics</h2>
+        
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/graphic final/bbbb"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                       
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/graphic final/dddd.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/graphic final/cccc.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                       
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/graphic final/aaaa.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                       
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/graphic final/eeee.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                       
+                      </div>
+                    </div>
+                  </div>
+        
+                  
+                  
+                </div>
+        
+              </div>
+              <!--/.Forth slide-->
+        
+              <!--Fifth slide-->
+              <div class="carousel-item">
+
+                  <h2 style="color:#fd7e77;margin-bottom: 1rem">Drawings - Marker</h2>
+        
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/drawing final/2.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/drawing final/3.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                      
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/drawing final/8.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                       
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/drawing final/7.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                      
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/drawing final/6.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                       
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/drawing final/4.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+        
+              </div>
+              <!--/.Fifth slide-->
+        
+              <!--Sixth slide-->
+              <div class="carousel-item">
+
+                  <h2 style="color:#fd7e77;margin-bottom: 1rem">Drawings - Marker and pencil</h2>
+        
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/drawing final/aa 拷貝.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/drawing final/bb 拷貝.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/drawing final/ee 拷貝.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 clearfix d-none d-md-block">
+                    <div class="card mb-2">
+                      <img class="card-img-top" src="img/graphic final/1 拷貝.jpg"
+                        alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title" style="font-family: 'Lora', serif;color: #fd7e77">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+        
+              </div>
+              <!--/.Sixth slide-->
+        
+            </div>
+            <!--/.Slides-->
+        
+          </div>
+          <!--/.Carousel Wrapper-->
+        
+        
         </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal4">
-            <span class="caption">
-              <span class="caption-content">
-                <h2 style="color: #fd7e77">Film Photography</h2>
-                <p class="mb-0">Several film photography.</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio cover/01.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal5">
-            <span class="caption">
-              <span class="caption-content">
-                <h2 style="color: #fd7e77">Drawings</h2>
-                <p class="mb-0">Drawings and daily practices.</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio cover/plane.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal6">
-            <span class="caption">
-              <span class="caption-content">
-                <h2 style="color: #fd7e77">Vertical Photography</h2>
-                <p class="mb-0">Daily vertical photography.</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio cover/a.jpg" alt="">
-          </a>
-        </div>
+        
 
       </div>
     </div>
@@ -312,7 +775,7 @@ input[type=submit]:hover {
   <!-- Contact -->
   <section class="bg-primary text-white" style="padding-top: 4rem" id="contact">
     <div class="container text-center" style="padding-bottom: 3rem">
-      <h2 style="color: #ffffff;margin-left: 0px">&#8675 Contact me below &#8675</h2>
+      <h2 style="color: #ffffff;margin-left: 0px;font-family: 'Lora', serif">&#8675 Contact me below &#8675</h2>
     </div>
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.281859027549!2d114.17683395057884!3d22.30517758524892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400e87bc70a43%3A0x41b4db8708c4f997!2sJockey%20Club%20Innovation%20Tower!5e0!3m2!1szh-TW!2shk!4v1575462833627!5m2!1szh-TW!2shk"
@@ -323,7 +786,7 @@ input[type=submit]:hover {
           <div class="container2"></div>
               <div style="padding-top: 3rem;padding-bottom: 1.5rem">
                
-                <h2>Leave me a message!</h2>
+                <h2 style="font-family: 'Lora', serif">Leave me a message!</h2>
               </div>
           
                 
@@ -391,11 +854,11 @@ input[type=submit]:hover {
       }
   
       .zoom:hover {
-        -ms-transform: scale(1.5);
+        -ms-transform: scale(1.2);
         /* IE 9 */
-        -webkit-transform: scale(1.5);
+        -webkit-transform: scale(1.2);
         /* Safari 3-8 */
-        transform: scale(1.5);
+        transform: scale(1.2);
       }
 </style>
   
@@ -411,248 +874,8 @@ input[type=submit]:hover {
     }
     </script>
 
-<!-- Modal 1 -->
-<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row" style="height: auto;width: auto">
-          <div class="col-lg-8 mx-auto" style="max-width: 90%;flex:0 0 90%">
-            <div class="modal-body">
-              <!-- Project Details Go Here -->
-              <h2 class="text-uppercase" style="color: #fd7e77;padding-top: 1.3rem">Digital Photography</h2>
-              <p class="item-intro text-muted">These are some digital photos taken around Hong Kong.</p>
-
-              <div class="container" style="padding-bottom: 3rem">
-                  <div class="carousel slide" data-ride="carousel" id="carousel-demo">
-                       <ol class="carousel-indicators">
-                         <li data-target="#carousel-demo" data-slide-to="0" class="active"></li>
-                         <li data-target="#carousel-demo" data-slide-to="1"></li>
-                         <li data-target="#carousel-demo" data-slide-to="2"></li>
-                         <li data-target="#carousel-demo" data-slide-to="3"></li>
-                         <li data-target="#carousel-demo" data-slide-to="4"></li>
-                         <li data-target="#carousel-demo" data-slide-to="5"></li>
-                         <li data-target="#carousel-demo" data-slide-to="6"></li>
-                         <li data-target="#carousel-demo" data-slide-to="7"></li>
-                        
-                         
-                        
-                       </ol>
-                     <div class="carousel-inner">
-                       <div class="carousel-item active">
-                         <img class="d-block w-100" src="img/portfolio cover/digital.jpg" alt="">
-                       </div>
-                       <div class="carousel-item">
-                         <img class="d-block w-100" src="img/digital/00.JPG" alt="">
-                       </div>
-                       <div class="carousel-item">
-                         <img class="d-block w-100" src="img/digital/22.jpg" alt="">
-                       </div>
-                       <div class="carousel-item">
-                         <img class="d-block w-100" src="img/digital/33.jpg" alt="">
-                        </div>
-                        <div class="carousel-item">
-                         <img class="d-block w-100" src="img/digital/77.jpg" alt="">
-                          </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="img/digital/55.jpg" alt="">
-                          </div>
-
-                        <div class="carousel-item">
-                              <img class="d-block w-100" src="img/digital/66.jpg" alt="">
-                          </div>
-
-                        <div class="carousel-item">
-                              <img class="d-block w-100" src="img/digital/44.jpg" alt="">
-                           </div>
-                     
-                       <a href="#carousel-demo" class="carousel-control-prev" data-slide="prev">
-                       <span class="carousel-control-prev-icon"></span>
-                       </a>
-                       <a href="#carousel-demo" class="carousel-control-next" data-slide="next">
-                         <span class="carousel-control-next-icon"></span>
-                       </a>
-                     </div>
-                   </div>
-               </div>
 
 
-              </ul>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                <i class="fas fa-times"></i>
-                Close Project</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal 2 -->
-<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row" style="height: auto;width: auto">
-          <div class="col-lg-8 mx-auto" style="max-width: 90%;flex:0 0 90%">
-            <div class="modal-body">
-              <!-- Project Details Go Here -->
-              <h2 class="text-uppercase" style="color: #fd7e77;padding-top: 1.3rem">Marker Sketches</h2>
-              <p class="item-intro text-muted">These are some b/w and coloured marker sketches.</p>
-              
-              <img class="img-fluid d-block zoom" style="width: 100%;padding-bottom: 2rem"
-                src="img/portfolio cover/chicken.jpg" alt="" onclick="myFunction()">
-
-              </ul>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                <i class="fas fa-times"></i>
-                Close Project</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal 3 -->
-<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row" style="height: auto;width: auto">
-          <div class="col-lg-8 mx-auto" style="max-width: 90%;flex:0 0 90%">
-            <div class="modal-body">
-              <!-- Project Details Go Here -->
-              <h2 class="text-uppercase" style="color: #fd7e77;padding-top: 1.3rem">Graphics</h2>
-              <p class="item-intro text-muted">These are some graphic works.</p>
-              <img class="img-fluid d-block zoom" style="width: 100%;padding-bottom: 2rem"
-                src="img/portfolio cover/final.jpg" alt="" onclick="myFunction()">
-
-
-              </ul>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                <i class="fas fa-times"></i>
-                Close Project</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal 4 -->
-<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row" style="height: auto;width: auto">
-          <div class="col-lg-8 mx-auto" style="max-width: 90%;flex:0 0 90%">
-            <div class="modal-body">
-              <!-- Project Details Go Here -->
-              <h2 class="text-uppercase" style="color: #fd7e77;padding-top: 1.3rem">Film Photography</h2>
-              <p class="item-intro text-muted">These are some film photos taken around Hong Kong.</p>
-              <img class="img-fluid d-block zoom" style="width: 100%;padding-bottom: 2rem" src="img/film/01.jpg"
-                alt="" onclick="myFunction()">
-
-
-              </ul>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                <i class="fas fa-times"></i>
-                Close Project</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal 5 -->
-<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row" style="height: auto;width: auto">
-          <div class="col-lg-8 mx-auto" style="max-width: 90%;flex:0 0 90%">
-            <div class="modal-body">
-              <!-- Project Details Go Here -->
-              <h2 class="text-uppercase" style="color: #fd7e77;padding-top: 1.3rem">Digital Photography</h2>
-              <p class="item-intro text-muted">These are some digital photos taken around Hong Kong.</p>
-              <img class="img-fluid d-block zoom" style="width: 100%;padding-bottom: 2rem" src="img/drawing/aa.jpg"
-                alt="" onclick="myFunction()">
-
-
-              </ul>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                <i class="fas fa-times"></i>
-                Close Project</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal 6 -->
-<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row" style="height: auto;width: auto">
-          <div class="col-lg-8 mx-auto" style="max-width: 90%;flex:0 0 90%">
-            <div class="modal-body">
-              <!-- Project Details Go Here -->
-              <h2 class="text-uppercase" style="color: #fd7e77;padding-top: 1.3rem">Digital Photography</h2>
-              <p class="item-intro text-muted">These are some digital photos taken around Hong Kong.</p>
-              <img class="img-fluid d-block zoom" style="width: 100%;padding-bottom: 2rem" src="img/vertical/a.JPG"
-                alt="" onclick="myFunction()">
-
-
-              </ul>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                <i class="fas fa-times"></i>
-                Close Project</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 

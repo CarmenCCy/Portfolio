@@ -68,3 +68,4 @@ $('.map').on('click', onMapClickHandler);
 }
 
 window.alert("Sorry! Still under construction");
+
